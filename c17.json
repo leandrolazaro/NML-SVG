@@ -1,0 +1,766 @@
+[
+  {
+    "numberY": 300,
+    "numberX": 1000
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 9,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "8",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "9",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 3,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "10",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 19,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "11",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 0,
+    "logic": "normal",
+    "id": "7",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 13,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "12",
+    "type": "output"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 19,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "13",
+    "type": "output"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 1,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 0,
+    "x": 11,
+    "fixed_magnetization": true,
+    "y": 1,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 3,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 4,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 6,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 7,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 8,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 9,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 10,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 12,
+    "fixed_magnetization": false,
+    "y": 2,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 3,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 1,
+    "x": 5,
+    "fixed_magnetization": true,
+    "y": 3,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 3,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 4,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 4,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 5,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 5,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 6,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 6,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 2,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 1,
+    "x": 17,
+    "fixed_magnetization": true,
+    "y": 7,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 3,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 4,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 10,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 12,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 13,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 14,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 15,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 16,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 18,
+    "fixed_magnetization": false,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 9,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 2,
+    "x": 11,
+    "fixed_magnetization": true,
+    "y": 9,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 9,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 10,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 10,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 10,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 11,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 11,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 11,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 12,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 12,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 12,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 13,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 13,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 13,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 4,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 5,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 6,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 7,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 8,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 9,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 10,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 11,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 1,
+    "x": 12,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 13,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 14,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 15,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 16,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 18,
+    "fixed_magnetization": false,
+    "y": 14,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 2,
+    "x": 5,
+    "fixed_magnetization": true,
+    "y": 15,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": -1,
+    "clock_zone": 0,
+    "x": 17,
+    "fixed_magnetization": true,
+    "y": 15,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  }
+]

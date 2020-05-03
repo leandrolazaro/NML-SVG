@@ -1,0 +1,76 @@
+[
+  {
+    "numberY": 300,
+    "numberX": 1000
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 14,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "In0",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 2,
+    "x": 16,
+    "fixed_magnetization": false,
+    "y": 5,
+    "logic": "normal",
+    "id": "In1",
+    "type": "input"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 17,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "Out",
+    "type": "output"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 16,
+    "fixed_magnetization": false,
+    "y": 6,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 15,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 0,
+    "clock_zone": 0,
+    "x": 16,
+    "fixed_magnetization": false,
+    "y": 7,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  },
+  {
+    "magnetization": 1,
+    "clock_zone": 0,
+    "x": 16,
+    "fixed_magnetization": true,
+    "y": 8,
+    "logic": "normal",
+    "id": "",
+    "type": "regular"
+  }
+]
