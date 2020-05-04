@@ -119,7 +119,7 @@ def mondrian():
     s.finalize()
 
     try:
-        s.save("cell.svg")
+        s.save("c17.svg")
     except IOError as ioe:
         print(ioe)
 
