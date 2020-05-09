@@ -92,7 +92,14 @@ def i_want_to_believe():
 
 def mondrian():
 
-    cores_clock=["red", "blue", "green"]
+    bancs=[[0,1,2],[2,1,0],[2,0,1],[1,0,2],[1,2,0],[0,2,1]]
+
+    inicio_zona_clock_x=0.33
+    inicio_zona_clock_y=-5.66
+
+    cores_zona_clock=["white", "#565656", "#bebebe"]
+
+    cores_clock=["#0cf60c", "#0405f2", "#f408f4"]
 
     escala=5
 
@@ -100,13 +107,19 @@ def mondrian():
 
     s = svg.SVG()
 
-    with open('xor.json') as json_file:
+    with open('c17.json') as json_file:
         data = json.load(json_file)
     for p in data:
         if a==0:
             s.create(int(p['numberX'])*escala, int(p['numberY'])*escala)
             s.fill("white")
             s.rectangle(int(p['numberX'])*escala, int(p['numberY'])*escala, 0, 0, "white", "black", 1, 0, 0)
+            for i in range(10):
+                for j in range(10):
+                    for k in range(6):
+                        for l in range(3):
+                            s.rectangle(escala*3, (escala*2)*3, (inicio_zona_clock_x+j+l)*(escala*3)+(escala*6*j), (inicio_zona_clock_y+i+k)*((escala*2)*3)+(escala*6*5*i), cores_zona_clock[bancs[k][l]], "black", 0, 0, 0)        
+
             a=1
         else:
             s.rectangle(escala, (escala*2), (int(p['x'])*escala), (int(p['y'])*(escala*2)), cores_clock[int(p['clock_zone'])], cores_clock[int(p['clock_zone'])], 0, 0, 0)
