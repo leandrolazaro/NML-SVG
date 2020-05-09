@@ -10,7 +10,7 @@
     "fixed_magnetization": false,
     "y": 19,
     "logic": "normal",
-    "id": "A",
+    "id": "I0",
     "type": "input"
   },
   {
@@ -20,7 +20,7 @@
     "fixed_magnetization": false,
     "y": 15,
     "logic": "normal",
-    "id": "B",
+    "id": "I1",
     "type": "input"
   },
   {
@@ -30,7 +30,7 @@
     "fixed_magnetization": false,
     "y": 13,
     "logic": "normal",
-    "id": "Out",
+    "id": "O",
     "type": "output"
   },
   {

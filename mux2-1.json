@@ -40,7 +40,7 @@
     "fixed_magnetization": false,
     "y": 12,
     "logic": "normal",
-    "id": "Out",
+    "id": "O",
     "type": "output"
   },
   {

@@ -92,47 +92,61 @@ def i_want_to_believe():
 
 def mondrian():
 
-    bancs=[[0,1,2],[2,1,0],[2,0,1],[1,0,2],[1,2,0],[0,2,1]]
+    bancs=[[0,1,2],[0,2,1],[2,0,1],[2,1,0],[1,2,0],[1,0,2]]
 
-    inicio_zona_clock_x=0.33
-    inicio_zona_clock_y=-5.66
+    inicio_zona_clock_x=-8*0.3333333333
+    inicio_zona_clock_y=-6*0.333333
 
-    cores_zona_clock=["white", "#565656", "#bebebe"]
+    posicaoinicialx_circuito=1
+    posicaoinicialy_circuito=2
+
+    cores_zona_clock=["white", "#bebebe", "#565656"]
 
     cores_clock=["#0cf60c", "#0405f2", "#f408f4"]
 
-    escala=5
+    escala=100
 
     a=0
 
     s = svg.SVG()
 
-    with open('c17.json') as json_file:
+    with open('c17withoutcells') as json_file:
         data = json.load(json_file)
     for p in data:
         if a==0:
-            s.create(int(p['numberX'])*escala, int(p['numberY'])*escala)
+            s.create(int(p['numberX'])*escala*3, int(p['numberY'])*escala*6)
             s.fill("white")
             s.rectangle(int(p['numberX'])*escala, int(p['numberY'])*escala, 0, 0, "white", "black", 1, 0, 0)
             for i in range(10):
                 for j in range(10):
                     for k in range(6):
                         for l in range(3):
-                            s.rectangle(escala*3, (escala*2)*3, (inicio_zona_clock_x+j+l)*(escala*3)+(escala*6*j), (inicio_zona_clock_y+i+k)*((escala*2)*3)+(escala*6*5*i), cores_zona_clock[bancs[k][l]], "black", 0, 0, 0)        
+                            s.rectangle(escala*3, (escala*2)*3, (inicio_zona_clock_x*3+j+l)*(escala*3)+(escala*6*j), (inicio_zona_clock_y*6+i+k)*((escala*2)*3)+(escala*6*5*i), cores_zona_clock[bancs[k][l]], "black", 0, 0, 0)        
 
             a=1
         else:
-            s.rectangle(escala, (escala*2), (int(p['x'])*escala), (int(p['y'])*(escala*2)), cores_clock[int(p['clock_zone'])], cores_clock[int(p['clock_zone'])], 0, 0, 0)
-            s.line("black", (escala/8), (int(p['x'])*escala), (int(p['y'])*(escala*2)), (int(p['x'])*escala)+escala, (int(p['y'])*(escala*2)))
-            s.line("black", (escala/8), (int(p['x'])*escala), (int(p['y'])*(escala*2)), (int(p['x'])*escala), (int(p['y'])*(escala*2))+(escala*2))
-            s.line("black", (escala/8), (int(p['x'])*escala), (int(p['y'])*(escala*2))+(escala*2), (int(p['x'])*escala)+escala, (int(p['y'])*(escala*2))+(escala*2))
-            s.line("black", (escala/8), (int(p['x'])*escala)+escala, (int(p['y'])*(escala*2))+(escala*2), (int(p['x'])*escala)+escala, (int(p['y'])*(escala*2)))
-            print('fixed_magnetization: ' + str(p['fixed_magnetization']))
+            if(str(p['logic'])=="cross"):
+                s.rectangle(escala, (escala), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2, cores_clock[int(p['clock_zone'])], cores_clock[int(p['clock_zone'])], 0, 0, 0)
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2, (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2)
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2, (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2+(escala))
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2+(escala), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2+(escala))
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2+(escala), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+escala/2)
+            else:
+                s.rectangle(escala, (escala*2), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2), cores_clock[int(p['clock_zone'])], cores_clock[int(p['clock_zone'])], 0, 0, 0)
+
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2))
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+(escala*2))
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito), (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+(escala*2), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+(escala*2))
+                s.line("black", (escala/8), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2)+(escala*2), (int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+escala, (int(p['y'])*(escala*2))+(escala*posicaoinicialy_circuito*2))
+
+                if(p['type']!="regular"):
+                    s.text((int(p['x'])*escala)+(escala*posicaoinicialx_circuito)+(escala/7), (int(p['y'])*(escala*2)+(escala*posicaoinicialy_circuito*2)+escala), "sans-serif", escala/1.5, "#FFFFFF", "#000000", str(p['id']))
+                print('fixed_magnetization: ' + str(p['fixed_magnetization']))
 
     s.finalize()
 
     try:
-        s.save("c17.svg")
+        s.save("c17withoutcells.svg")
     except IOError as ioe:
         print(ioe)
 

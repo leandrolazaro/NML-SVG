@@ -5,32 +5,12 @@
   },
   {
     "magnetization": 0,
-    "clock_zone": 2,
-    "x": 14,
-    "fixed_magnetization": false,
-    "y": 7,
-    "logic": "normal",
-    "id": "In0",
-    "type": "input"
-  },
-  {
-    "magnetization": 0,
-    "clock_zone": 2,
-    "x": 16,
-    "fixed_magnetization": false,
-    "y": 5,
-    "logic": "normal",
-    "id": "In1",
-    "type": "input"
-  },
-  {
-    "magnetization": 0,
     "clock_zone": 0,
     "x": 17,
     "fixed_magnetization": false,
     "y": 7,
     "logic": "normal",
-    "id": "Out",
+    "id": "O",
     "type": "output"
   },
   {
@@ -40,8 +20,8 @@
     "fixed_magnetization": false,
     "y": 6,
     "logic": "normal",
-    "id": "",
-    "type": "regular"
+    "id": "I0",
+    "type": "input"
   },
   {
     "magnetization": 0,
@@ -50,8 +30,8 @@
     "fixed_magnetization": false,
     "y": 7,
     "logic": "normal",
-    "id": "",
-    "type": "regular"
+    "id": "I1",
+    "type": "input"
   },
   {
     "magnetization": 0,
